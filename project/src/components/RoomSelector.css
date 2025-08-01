@@ -1,0 +1,89 @@
+.room-selector {
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.room-grid {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.room-card {
+  flex: 1 1 18%; 
+  max-width: 18%; 
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.room-card:hover {
+  transform: scale(1.02);
+}
+
+.room-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.qty-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.qty-controls button {
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.qty-controls button:hover {
+  background-color: #0056b3;
+}
+
+.total-cost {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.room-total-card {
+  width: 200px;          
+  height: 50px;         
+  padding: 12px 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;         
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
